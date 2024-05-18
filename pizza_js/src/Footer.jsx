@@ -7,7 +7,9 @@ const Footer = () => {
 
   return (
     <footer>
-      <p>{new Date().toLocaleTimeString()} We&apos;re currently open!</p>
+      <p className="text-center font-medium text-xl mt-8">
+        {new Date().toLocaleTimeString()} We&apos;re currently open!
+      </p>
     </footer>
   );
 };
